@@ -4,12 +4,12 @@
 }
 
 <h2>Studnets</h2>
-<ul>
-   <li>name</li>
+<table class="table table-responsive text-center">
+   <tr><td>name</td><td>major</td></tr>
 
     @foreach (var item in Model)
     {
-        <li>@item.name</li>
+        <tr><td>@item.name</td><td>@item.major</td></tr>
     }
 
-</ul>
+</table>
