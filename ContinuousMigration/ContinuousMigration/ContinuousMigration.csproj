@@ -142,6 +142,10 @@
     <Compile Include="Migrations\201702031930564_newAttrAdded.Designer.cs">
       <DependentUpon>201702031930564_newAttrAdded.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201702040350513_addASecondShcema.cs" />
+    <Compile Include="Migrations\201702040350513_addASecondShcema.Designer.cs">
+      <DependentUpon>201702040350513_addASecondShcema.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Models\ZmaContext.cs" />
@@ -191,6 +195,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201702031930564_newAttrAdded.resx">
       <DependentUpon>201702031930564_newAttrAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702040350513_addASecondShcema.resx">
+      <DependentUpon>201702040350513_addASecondShcema.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
