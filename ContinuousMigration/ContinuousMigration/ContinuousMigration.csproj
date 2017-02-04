@@ -134,19 +134,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201702031927312_init.cs" />
-    <Compile Include="Migrations\201702031927312_init.Designer.cs">
-      <DependentUpon>201702031927312_init.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201702031930564_newAttrAdded.cs" />
-    <Compile Include="Migrations\201702031930564_newAttrAdded.Designer.cs">
-      <DependentUpon>201702031930564_newAttrAdded.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201702040350513_addASecondShcema.cs" />
-    <Compile Include="Migrations\201702040350513_addASecondShcema.Designer.cs">
-      <DependentUpon>201702040350513_addASecondShcema.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Models\ZmaContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -188,17 +175,6 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201702031927312_init.resx">
-      <DependentUpon>201702031927312_init.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201702031930564_newAttrAdded.resx">
-      <DependentUpon>201702031930564_newAttrAdded.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201702040350513_addASecondShcema.resx">
-      <DependentUpon>201702040350513_addASecondShcema.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
