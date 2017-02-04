@@ -1,6 +1,7 @@
 ﻿using ContinuousMigration.Models;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -12,7 +13,7 @@ namespace ContinuousMigration.Controllers
         ZmaContext db = new ZmaContext();
         public ActionResult Index()
         {
-            
+            ViewBag.Message = ConfigurationManager.ConnectionStrings["ZmaContext"].ConnectionString;
             return View(db.Students.ToList());
         }
 
