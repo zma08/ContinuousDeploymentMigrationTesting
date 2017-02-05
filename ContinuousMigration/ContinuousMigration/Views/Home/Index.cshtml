@@ -1,15 +1,18 @@
 ﻿@model IEnumerable<ContinuousMigration.Models.Student>
-@{
-    ViewBag.Title = "Index";
-}
+
 
 <h2>Students(;)</h2>
 <ul>
    <li>name</li>
 
+<h2>Students...</h2>
+<table class="table table-responsive text-center">
+   <tr><td>name</td><td>major</td></tr>
+
+
     @foreach (var item in Model)
     {
-        <li>@item.name</li>
+        <tr><td>@item.name</td><td>@item.major</td></tr>
     }
 
-</ul>
+</table>

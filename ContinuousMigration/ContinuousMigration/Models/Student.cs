@@ -17,5 +17,8 @@ namespace ContinuousMigration.Models
         [Display(Name = "Major")]
         public string major { get; set; }
 
+        [StringLength(20)]
+        public string hobby { get; set; }
+
     }
 }
